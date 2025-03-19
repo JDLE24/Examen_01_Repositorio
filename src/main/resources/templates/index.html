@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="/assets/styles.css" />
+  </head>
+  <body class="login-page bg-body-secondary">
+    <div class="login-box">
+      <div class="card card-outline card-primary">
+        <div class="card-header">
+          <h1 class="mb-0 text-center"><b>Inicio de sesión</b></h1>
+        </div>
+        <div class="card-body login-card-body">
+          <p class="login-box-msg">Ingresa tus datos para iniciar</p>
+          <form action="/clientes_potenciales/listado.html" method="post">
+            <div class="input-group mb-1">
+              <div class="form-floating">
+                <input id="loginEmail" type="email" class="form-control" value="" placeholder="Correo" />
+                <label for="loginEmail">Correo</label>
+              </div>
+              <div class="input-group-text"><span class="bi bi-envelope"></span></div>
+            </div>
+            <div class="input-group mb-1">
+              <div class="form-floating">
+                <input id="loginPassword" type="password" class="form-control" placeholder="Contraseña" />
+                <label for="loginPassword">Contraseña</label>
+              </div>
+              <div class="input-group-text"><span class="bi bi-lock-fill"></span></div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div class="d-grid gap-2">
+                  <a href="/comentarios" class="btn btn-primary text-white">Regístrate</a>
+                </div>
+              </div>
+            </div>
+          </form>
+          <div class="social-auth-links text-center mb-3 d-grid gap-2">
+            <p>- ó -</p>
+            <a href="#" class="btn btn-info">
+              <i class="bi bi-instagram me-2"></i> Inicia mediante Instagram
+            </a>
+            <p class="mb-0">
+              <a href="/login/Registrate" class="text-center">Regístrate</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
